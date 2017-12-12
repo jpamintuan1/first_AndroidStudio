@@ -14,9 +14,9 @@
     android:scaleType="centerCrop"
     />
 
-    <TextView
-
-        android:text="User Name"
+    <EditText
+        android:hint="Email"
+        android:id= "@+id/myTextField"
         android:textStyle="bold"
         android:alpha=".50"
         android:textColor="#64B5F6"
@@ -25,22 +25,27 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:textAppearanceLarge"
         />
-    <TextView
 
-        android:text="Password"
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textColor="#64B5F6"
         android:background="#84FFFF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceLarge"
-        />
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+
     <Button
         android:id="@+id/button_id"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="Login"
         android:onClick="clickFunction"/>
+
 
 
 

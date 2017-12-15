@@ -8,11 +8,15 @@
     tools:context="com.example.josep.mylogin.MainActivity">
 
 <ImageView
+    android:id="@+id/myImageView"
     android:src="@drawable/bann"
     android:layout_width="match_parent"
-    android:layout_height="300sp"
-    android:scaleType="centerCrop"
-    />
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:scaleType="centerCrop"/>
+
+
+
 
     <EditText
         android:hint="Email"
@@ -46,6 +50,12 @@
         android:text="Login"
         android:onClick="clickFunction"/>
 
+    <Button
+        android:id="@+id/buttonSignupid"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Sign Up"
+        android:onClick="clickFunction"/>
 
 
 
